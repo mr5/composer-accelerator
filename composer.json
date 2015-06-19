@@ -9,7 +9,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Mr5\\ComposerAccelerator\\": "src/mr5/ComposerAccelerator/"
+      "Mr5\\ComposerAccelerator\\": "src/Mr5/ComposerAccelerator/"
     }
   }
 }
