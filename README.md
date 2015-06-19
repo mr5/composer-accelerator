@@ -1,1 +1,1 @@
-#composer-qiniu-plugin
+#composer-accelerator
