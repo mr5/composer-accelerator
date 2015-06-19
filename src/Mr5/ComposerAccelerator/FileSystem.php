@@ -12,7 +12,7 @@ namespace Mr5\ComposerAccelerator;
 use Composer\Config;
 use Composer\Util\RemoteFilesystem;
 
-class QiniuFileSystem extends RemoteFilesystem
+class FileSystem extends RemoteFilesystem
 {
     /**
      * @var Config

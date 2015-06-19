@@ -77,7 +77,7 @@ class Accelerator implements PluginInterface, EventSubscriberInterface
             }
         }
         if ($searched) {
-            $qiniu = new QiniuFileSystem(
+            $qiniu = new FileSystem(
                 $this->io,
                 $this->composer->getConfig(),
                 $event->getRemoteFilesystem() ? $event->getRemoteFilesystem()->getOptions() : array()
