@@ -1,0 +1,15 @@
+{
+  "name": "mr5/composer-accelerator",
+  "type": "composer-plugin",
+  "require": {
+    "composer-plugin-api": "~1.0"
+  },
+  "extra": {
+    "class": "Mr5\\ComposerAccelerator\\Accelerator"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mr5\\ComposerAccelerator\\": "src/mr5/ComposerAccelerator/"
+    }
+  }
+}
